@@ -20,6 +20,5 @@ const markup = images
       `<li class="list-item"><img class="item-image" src="${image.url}" alt="${image.alt}"> </li>`
   )
   .join("");
-console.log(markup);
 
 listEl.insertAdjacentHTML("afterbegin", markup);
